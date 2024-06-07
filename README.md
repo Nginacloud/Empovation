@@ -7,14 +7,15 @@
 ### Project Overview
 Basically data set from an electronic store, various folders that have to analyze and report. My aim is to learn but this data analysis project aims to provide insights into the sales perfomance of electronic stores, with all given details being very valuable. Make recommendations, deeeper understanding of trends and data-driven analysis of the store's perfomance.
 ### Data Source
-sales data -
-products
-pproducts
-customer
-data dictionary
-categories
-exchange rates
-stores
+[Download](https://drive.google.com/drive/folders/1ktlikQQzvVSlenozkGLFCRlvIptjIUxc?usp=drive_link)
+- sales data
+- products
+- pproducts
+- customer
+- data dictionary
+- categories
+- exchange rates
+- stores
 ### Tools
 - Excel - data cleaning
 - SQL (Mysql) server - Data analysis and result[Download here]()
