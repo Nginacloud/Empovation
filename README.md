@@ -25,16 +25,28 @@ Preparation and loading to SQL server
 
 ### Exploratory Data Analysis
 1. Write a query to count the Total Number of Orders Per Customer order in desc .
-2. Query to List of Products Sold in 2020
-3. Write a query to find all Customer Details from specific state
-4. Write a query to calculate the Total Sales Quantity for productkey
-5. Write a query to retrieve the Top 5 Stores with the Most Sales Transactions.
+   Query to List of Products Sold in 2020
+   Write a query to find all Customer Details from specific state
+   Write a query to calculate the Total Sales Quantity for productkey
+   Write a query to retrieve the Top 5 Stores with the Most Sales Transactions.
+2. Average Price of Products in a Category
+   Customer Purchases by Gender
+   List of Products Not Sold
+   Currency Conversion for Orders
 ### Data Analysis
+week 1
 ```sql
 select distinct p.`ProductKey`, `Product Name`
 from Products p
 join sales s on p.`ProductKey` = s.`ProductKey`
 where s.`Order Date` like '%2020';
+```
+week 2
+```sql
+select p.`ProductKey`, p.`Product Name`
+from Products p
+left join Sales s on p.`ProductKey` = s.`ProductKey` -- no corresponding entry
+where s.`ProductKey` is null;      -- learning the left join was my favorite this day
 ```
 ### Results
 - totalorders = 26326
@@ -42,3 +54,4 @@ where s.`Order Date` like '%2020';
 '723572', '14' - orders per customer
 -  StoreKey, salestransactions
 '0', '5580' - mostsales transactions
+
