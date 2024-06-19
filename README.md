@@ -55,3 +55,4 @@ where s.`ProductKey` is null;      -- learning the left join was my favorite thi
 -  StoreKey, salestransactions
 '0', '5580' - mostsales transactions
 
+#sqlfastfinger #sqlchallenge #sqlempovation
