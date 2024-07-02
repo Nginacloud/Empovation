@@ -8,7 +8,7 @@ This is the empovation sql challenge.
 - [Recommendations](recommendations).
 - [Conclusion](conclusion).
 ### Project Overview
-Basically data set from an electronic store, various folders that have to analyze and report. My aim is to learn but this data analysis project aims to provide insights into the sales perfomance of electronic stores, with all given details being very valuable. Make recommendations, deeeper understanding of trends and data-driven analysis of the store's perfomance.
+This dataset was obtained from Empovation. It contains data on Electronic store from year 2016 to 2021.
 ### Data Source
 [Download](https://drive.google.com/drive/folders/1ktlikQQzvVSlenozkGLFCRlvIptjIUxc?usp=drive_link)
 - sales data
@@ -22,9 +22,15 @@ Basically data set from an electronic store, various folders that have to analyz
 ### Tools
 - Excel - data cleaning
 - SQL (Mysql) server - Data analysis and result[Download here]()
-### Data Cleaning/ Preparation
+### Data Cleaning
+## Preparation
 Cleaning and formating of cells using excel
+
 Preparation and loading to SQL server
+## Cleaning
+Removed $ from columns Unit Price USD and Unit Cost USD
+
+Set the date formart as MDY for flow/consistency
 
 ### Findings
 1. Carlifornia is the state with the hightest number of orders (Batch 1 file)
