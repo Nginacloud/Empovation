@@ -5,8 +5,8 @@ This is the empovation sql challenge.
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Findings](#findings)
-- [Recommendations](recommendations).
-- [Conclusion](conclusion).
+- [Recommendations](#recommendations).
+- [Conclusion](#conclusion).
 ### Project Overview
 This dataset was obtained from Empovation. It contains data on Electronic store from year 2016 to 2021.
 ### Data Source
